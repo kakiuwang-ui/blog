@@ -4,6 +4,11 @@
   "description": "Personal blog with image upload and Typst document support",
   "author": "Your Name",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kakiuwang-ui/blog.git"
+  },
+  "homepage": "https://github.com/kakiuwang-ui/blog",
   "keywords": ["blog", "typst", "react", "typescript", "personal-website"],
   "scripts": {
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",

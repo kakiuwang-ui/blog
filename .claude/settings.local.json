@@ -25,7 +25,19 @@
       "Bash(grep:*)",
       "Read(//Users/wangjiaqiao/Desktop/**)",
       "Bash(python3:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-osxkeychain:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git pull:*)",
+      "Bash(git rm:*)",
+      "Bash(git check-ignore:*)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []

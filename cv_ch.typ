@@ -12,6 +12,7 @@
       "+86 13822790423",
       link("mailto:kakiuwang@gmail.com", "kakiuwang@gmail.com"),
       link("https://github.com/kakiuwang-ui", "GitHub: kakiuwang-ui"),
+      link("https://github.com/kakiuwang-ui/blog", "Blog: kakiuwang-ui/blog"),
     )
 )
 
@@ -32,7 +33,7 @@
 ]
 
 #resume-section[技术能力]
-- *编程语言*: C/C++(熟练), Python(熟练), JavaScript, TypeScript; 了解 #text(fill: gray, "Rust")
+- *编程语言*: C/C++, Python, JavaScript, TypeScript; 了解 #text(fill: gray, "Rust")
 - *开发工具*: Git/GitHub, Docker, VS Code, Linux/macOS命令行
 - *前端技术*: React, HTML/CSS, Vite构建工具
 - *后端技术*: Node.js, Express, 文件处理, API设计
