@@ -1,0 +1,37 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "Personal blog with image upload and Typst document support",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": ["blog", "typst", "react", "typescript", "personal-website"],
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "client:install": "cd client && npm install",
+    "server:install": "cd server && npm install",
+    "install-all": "npm install && npm run client:install && npm run server:install",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "start": "cd server && npm start",
+    "clean": "rm -rf client/dist server/dist client/node_modules server/node_modules node_modules",
+    "lint": "cd client && npm run lint",
+    "type-check": "cd server && npm run type-check",
+    "local:manage": "node scripts/local-manage.js",
+    "local:git-init": "node scripts/git-workflow.js init",
+    "local:git-sync": "node scripts/git-workflow.js sync",
+    "local:git-new": "node scripts/git-workflow.js new",
+    "local:git-deploy": "node scripts/git-workflow.js deploy",
+    "static:build": "node scripts/static-build.js",
+    "security:disable-admin": "node scripts/disable-admin.js",
+    "security:readonly": "cd server && npm run start:readonly || echo 'Run security:disable-admin first'",
+    "backup": "mkdir -p backups && cp -r server/data backups/data-$(date +%Y%m%d-%H%M%S)"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
