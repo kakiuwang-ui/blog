@@ -54,8 +54,8 @@ node_modules/
 # Compiled documents (temporary)
 server/compiled/
 
-# Upload cache
-server/uploads/.cache
+# Upload files and cache
+server/uploads/
 
 # System files
 .DS_Store
